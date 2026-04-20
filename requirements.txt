@@ -2,3 +2,9 @@ packaging==26.1
 pybind11==3.0.4
 setuptools==82.0.1
 wheel==0.46.3
+
+# PyTorch is intentionally NOT pinned here — some machines run CPU-only.
+# On CUDA 13.0 machines (matches locally installed libtorch 13.0), install separately:
+#   pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu130
+# On CPU-only machines:
+#   pip install torch torchvision torchaudio
