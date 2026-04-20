@@ -1,1 +1,3 @@
 - [Project purpose — Gaussian Splatting study](project_purpose.md) — 학습/실습 목적의 3DGS 레포, 설명과 단계별 구현 선호
+- [Windows Git Bash — HEREDOC 금지](feedback_windows_bash.md) — 이 PC에서 HEREDOC은 TMPDIR 오류로 실패, `-m` 여러 번 또는 `-F file` 사용
+- [Auto-memory 위치](reference_auto_memory_location.md) — .claude/memory/ 공유, settings.local.json에서 autoMemoryDirectory 설정 필요

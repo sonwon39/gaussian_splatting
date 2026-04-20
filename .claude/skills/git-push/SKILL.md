@@ -25,7 +25,7 @@ description: Stage all changes, create a commit with a message describing the wo
    - 학습용 레포이므로 해당 커밋에서 다룬 3DGS 개념/실습 주제가 있으면 메시지에 자연스럽게 녹여 쓰기
 
 5. **커밋 + 푸시**:
-   - 커밋 메시지는 HEREDOC으로 전달 (포매팅 유지)
+   - **이 환경(Windows + Git Bash)에서는 HEREDOC이 `cannot create temp file for here-document` 오류로 실패한다.** `git commit -m "제목" -m "본문" -m "trailer"` 처럼 `-m` 여러 번 쓰기.
    - 푸시 전에 업스트림 추적 여부 확인 → 없으면 `git push -u origin <branch>`, 있으면 `git push`
 
 6. **결과 확인**: `git status`로 워킹 트리 깨끗한지, 푸시 성공했는지 확인해 사용자에게 1–2줄로 요약.
