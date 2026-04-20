@@ -1,0 +1,1 @@
+- [Project purpose — Gaussian Splatting study](project_purpose.md) — 학습/실습 목적의 3DGS 레포, 설명과 단계별 구현 선호
