@@ -1,4 +1,8 @@
 - [Project purpose — Gaussian Splatting study](project_purpose.md) — 학습/실습 목적의 3DGS 레포, 설명과 단계별 구현 선호
+- [학습 로드맵](project_roadmap.md) — Python 렌더링 → DirectX12 렌더링 → 학습 순서로 진행
+- [하드웨어 제약](project_hardware.md) — 이 PC에 NVIDIA GPU 없음(Intel Iris Xe), CUDA는 Colab 등 클라우드 필요
 - [Windows Git Bash — HEREDOC 금지](feedback_windows_bash.md) — 이 PC에서 HEREDOC은 TMPDIR 오류로 실패, `-m` 여러 번 또는 `-F file` 사용
+- [Windows UTF-8 소스 빌드/실행](feedback_windows_utf8.md) — MSVC `/utf-8` 플래그 + 파이썬 `PYTHONUTF8=1` 필수
+- [빌드 환경 메모](reference_build_env.md) — venv(.venv, Py3.14), VS2022 위치, vcvars64 수동 호출 필요
 - [Auto-memory 위치](reference_auto_memory_location.md) — .claude/memory/ 공유, settings.local.json에서 autoMemoryDirectory 설정 필요
 - [이슈·피드백 즉시 자동 저장](feedback_proactive_memory.md) — 지시 없이도 발생 시점에 바로 메모리에 기록
