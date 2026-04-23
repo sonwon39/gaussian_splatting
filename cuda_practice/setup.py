@@ -11,7 +11,7 @@ if is_win32:
 ext_modules = [
     CUDAExtension(
         name ="math_ext",
-        sources = ["MathUtils.cpp", "MathUtils.cu"],
+        sources = ["MathUtils.cpp", "MathUtilsKernel.cu"],
         extra_compile_args ={
             "cxx":cxx_args,
             "nvcc":nvcc_args,
